@@ -1,23 +1,28 @@
 package org.deltixuat.tests;
 
-import org.deltixuat.pages.HistogramPage;
 import org.deltixuat.pages.LoginPage;
-import org.deltixuat.pages.SummaryPage;
 import org.deltixuat.utils.Browser;
-import org.junit.After;
-import org.junit.jupiter.api.AfterAll;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
+import org.deltixuat.utils.Settings;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.apache.log4j.Logger;
 
 public class BaseTest {
-    protected final static WebDriver driver = Browser.getDriver();
-    protected final static LoginPage loginPage = new LoginPage();
-    protected final static SummaryPage summaryPage = new SummaryPage();
-    protected final static HistogramPage histogramPage = new HistogramPage();
-    protected final static Actions actions = new Actions(driver);
 
-    @After
-    public void cleanUp(){
+    protected static Logger log = Logger.getLogger("deltixuat");
+
+    @BeforeTest
+    public void initDriver() {
+        LoginPage loginPage = new LoginPage();
+        loginPage.open();
+        log.info("Login page is opened");
+        loginPage.login(Settings.getUserName(), Settings.getPassword());
+        log.info("Credentials were provided and submitted");
+    }
+
+
+    @AfterTest
+    public void cleanUp() {
         Browser.close();
     }
 

@@ -1,28 +1,23 @@
 package org.deltixuat.pages;
 
 import org.deltixuat.utils.Browser;
+import org.deltixuat.utils.Settings;
 import org.openqa.selenium.By;
 
+public class LoginPage extends BasePage {
 
-public class LoginPage {
+    private static final By LOGIN_LOCATOR = By.xpath("//input[@formcontrolname= 'username']");
+    private static final By PASSWORD_LOCATOR = By.xpath("//input[@formcontrolname= 'password']");
+    private static final By SUBMIT_BUTTON_LOCATOR = By.xpath("//button");
 
-    private final static  By USERNAME_INPUT = By.xpath("//input[@formcontrolname= 'username']");
-    private final static  By PASSWORD_INPUT = By.xpath("//input[@formcontrolname= 'password']");
-    private final static By SUBMIT_BUTTON = By.xpath("//button");
-
-
-    public void doLogin(String login, String password){
-        fillLoginData(login, password);
-        submitLoginForm();
+    public void login(String userName, String password) {
+        getElement(LOGIN_LOCATOR).sendKeys(userName);
+        getElement(PASSWORD_LOCATOR).sendKeys(password);
+        getElement(SUBMIT_BUTTON_LOCATOR).submit();
     }
 
-    public void fillLoginData(String userName, String password) {
-        Browser.getDriver().findElement(USERNAME_INPUT).sendKeys(userName);
-        Browser.getDriver().findElement(PASSWORD_INPUT).sendKeys(password);
-    }
-
-    public void submitLoginForm() {
-        Browser.getDriver().findElement(SUBMIT_BUTTON).click();
+    public void open() {
+        Browser.getDriver().get(Settings.getBaseUrl() + "/login");
     }
 
 }

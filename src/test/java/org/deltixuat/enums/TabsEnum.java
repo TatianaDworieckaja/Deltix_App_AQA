@@ -1,21 +1,19 @@
-package org.deltixuat.elements;
+package org.deltixuat.enums;
 
-public enum SummaryPageElements {
+public enum TabsEnum {
     SUMMARY("Summary dashboard"),
     GRID("Grid & chart"),
     HISTOGRAM("Histogram"),
     SCATTER_PLOT("Scatter-plot"),
     REPORTS("Reports");
 
-
-
     private String value;
-    SummaryPageElements(String value){
+
+    TabsEnum(String value) {
         this.value = value;
     }
 
-    public String getValue() {
+    public String getTitle() {
         return value;
     }
-
 }

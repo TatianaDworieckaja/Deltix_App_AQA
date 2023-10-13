@@ -1,12 +1,23 @@
 package org.deltixuat.utils;
 
+import io.qameta.allure.Attachment;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-public  class Browser {
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Browser {
     private static WebDriver driver;
 
     private Browser() {
     }
+
     public static void initDriver() {
         driver = BrowserFactory.createDriver();
     }
@@ -25,4 +36,25 @@ public  class Browser {
         }
     }
 
+    public static void saveScreenShot() {
+        File screenShots = new File("./test-output/screenshots");
+
+        if (!screenShots.exists()) {
+            screenShots.mkdir();
+        }
+        Date date = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd-yyyy-h-mm-ss-SS--a");
+        String formattedDate = simpleDateFormat.format(date);
+        String fileName = Settings.getBrowserType() + "_" + formattedDate + "screenshot.png";
+        byte[] scrFile = takeScreenShot();
+        try {
+            Files.write(new File("src/test-output/screenshots/" + fileName).toPath(), scrFile, StandardOpenOption.CREATE);
+        } catch (IOException e) {
+        }
+    }
+
+    @Attachment
+    public static byte[] takeScreenShot() {
+        return ((TakesScreenshot) Browser.getDriver()).getScreenshotAs(OutputType.BYTES);
+    }
 }
