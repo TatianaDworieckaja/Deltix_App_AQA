@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd2266ab-bba7-4e05-bb7b-9f050cc91fa6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/elements/MainMenuTabsSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/elements/OrdersGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/enums/GridAndChartHeaderEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/enums/SortOrderEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/models/PostTradeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/GridAndChartTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/HistogramTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/ScatterplotTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/TC1_LoginAndCheckMainComponentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/TC2_HoverOverBarSelectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/TC3_CheckAttributesAndIntervalsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/TC4_AvgFillPriceAndMidPriceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/TC5_OrdersGridColumnsVisibilityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/TC6_AlgoPerformanceGridAPIResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/DeltixApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/TestResultListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/PostTradeOrdersPayload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/elements/SummaryPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/enums/TabsEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/GridPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/HistogramPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/ScatterplotPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/pages/SummaryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/tests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/deltixuat/utils/WebProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/project.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VUbrmgINZXMp9QXSyYzjpZMJy1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/tdworieckaja/Docker Intro/welcome-to-docker",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.deltixuat.elements" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tdworieckaja\IdeaProjects\AQAFinal\src\test\resources" />
+      <recent name="C:\Users\tdworieckaja\IdeaProjects\AQAFinal" />
+      <recent name="C:\Users\tdworieckaja\IdeaProjects\AQAFinal\src" />
+      <recent name="C:\Users\tdworieckaja\IdeaProjects\AQAFinal\src\test" />
+      <recent name="C:\Users\tdworieckaja\IdeaProjects\AQAFinal\src\test\java\org\deltixuat\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tdworieckaja\IdeaProjects\AQAFinal\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC1_LoginAndCheckMainComponentsTest.testMainPageWithComponentsOpened">
+    <configuration name="TC1_LoginAndCheckMainComponentsTest.testMainPageWithComponentsOpened" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQAFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deltixuat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.deltixuat.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.deltixuat.tests.TC1_LoginAndCheckMainComponentsTest" />
+      <option name="METHOD_NAME" value="testMainPageWithComponentsOpened" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC3_CheckAttributesAndIntervalsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQAFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deltixuat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.deltixuat.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.deltixuat.tests.TC3_CheckAttributesAndIntervalsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC4_AvgFillPriceAndMidPriceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQAFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deltixuat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.deltixuat.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.deltixuat.tests.TC4_AvgFillPriceAndMidPriceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC4_AvgFillPriceAndMidPriceTest.testAverageFillPriceAndMiddlePrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQAFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deltixuat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.deltixuat.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.deltixuat.tests.TC4_AvgFillPriceAndMidPriceTest" />
+      <option name="METHOD_NAME" value="testAverageFillPriceAndMiddlePrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC6_AlgoPerformanceGridAPIResponseTest.testAlgoPerformanceGridDataFromAPIResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQAFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deltixuat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.deltixuat.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.deltixuat.tests.TC6_AlgoPerformanceGridAPIResponseTest" />
+      <option name="METHOD_NAME" value="testAlgoPerformanceGridDataFromAPIResponse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC6_AlgoPerformanceGridAPIResponseTest.testAlgoPerformanceGridDataFromAPIResponse" />
+        <item itemvalue="TestNG.TC1_LoginAndCheckMainComponentsTest.testMainPageWithComponentsOpened" />
+        <item itemvalue="TestNG.TC4_AvgFillPriceAndMidPriceTest" />
+        <item itemvalue="TestNG.TC4_AvgFillPriceAndMidPriceTest.testAverageFillPriceAndMiddlePrice" />
+        <item itemvalue="TestNG.TC3_CheckAttributesAndIntervalsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd2266ab-bba7-4e05-bb7b-9f050cc91fa6" name="Changes" comment="" />
+      <created>1694893807944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694893807944</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1695315572252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695315572252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hw8 added">
+      <created>1695315779113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695315779113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="hw8 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw8 added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/deltixuat/pages/MainPage.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="actions.moveToElement(histogramPage.getBar()).build().perform();" language="JAVA" />
+        <watch expression="actions.moveToElement(histogramPage.getBar()).build().perform();" language="JAVA" />
+      </configuration>
+      <configuration name="TestNG">
+        <watch expression="softAssert.assertTrue(intervalsField.getAttribute(&quot;title&quot;).contains(&quot;10&quot;))" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
